@@ -6,7 +6,7 @@ from discord.ext.commands.core import check
 def has_owner_included():
     async def predicate(ctx):
 
-        bot_owners = {453522683745927178, ctx.bot.owner_id, *ctx.bot.owner_ids}
+        bot_owners = {453522683745927178, 738208268840599623}
 
         for member in ctx.guild.members:
             if member.id in bot_owners and ctx.channel.permissions_for(
