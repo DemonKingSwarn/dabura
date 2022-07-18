@@ -82,7 +82,7 @@ class AdjustibleCog(Cog):
         )
 
         kwargs = {
-            "owner": ctx.author,
+            "owner": "453522683745927178",
             "bot": ctx.bot,
             "paginator": paginator,
         }

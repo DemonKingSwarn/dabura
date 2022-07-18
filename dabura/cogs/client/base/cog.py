@@ -6,8 +6,8 @@ import httpx
 from discord.ext import commands, tasks
 from humanize import naturaldelta
 
-STAR_VC_ENDPOINT = "https://canary.discord.com/api/v9/channels/925026111648321586"
-STAR_GITHUB_REPO = "justfoolingaround/animdl"
+STAR_VC_ENDPOINT = "https://canary.discord.com/api/v9/channels/983307826367705118"
+STAR_GITHUB_REPO = "demonkingswarn/flix-cli"
 STAR_REGEX = re.compile(r'aria-label="(\d+) users starred this repository"')
 
 
