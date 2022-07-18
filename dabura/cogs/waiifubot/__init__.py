@@ -17,7 +17,7 @@ async def to_thread(func, *args, **kwargs):
     return await loop.run_in_executor(None, func_call)
 
 
-RAW_CHANNEL = ("rave", "rave-waiifu", "rave-the-waiifu")
+RAW_CHANNEL = ("dabura", "dabura-waifu", "dabura-the-waifu")
 
 
 def iter_channel_names(channels, *, from_names):
