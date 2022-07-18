@@ -1,4 +1,4 @@
-rom functools import reduce
+from functools import reduce
 from typing import Optional, Union
 
 import anitopy
