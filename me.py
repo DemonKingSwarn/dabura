@@ -3,7 +3,7 @@ import os
 
 from discord import AllowedMentions, Intents
 
-from rave.bot import RaveBot
+from dabura.bot import RaveBot
 
 bot = RaveBot(
     ".",
@@ -14,11 +14,11 @@ bot = RaveBot(
 bot.load_extension("jishaku")
 bot.load_extension("gitcord")
 
-bot.load_extension("rave.cogs.client.events")
-bot.load_extension("rave.cogs.client.base")
-bot.load_extension("rave.cogs.sauce")
-bot.load_extension("rave.cogs.waiifubot")
-bot.load_extension("rave.cogs.dinkies")
+bot.load_extension("dabura.cogs.client.events")
+bot.load_extension("dabura.cogs.client.base")
+bot.load_extension("dabura.cogs.sauce")
+bot.load_extension("dabura.cogs.waiifubot")
+bot.load_extension("dabura.cogs.dinkies")
 
 
 async def async_main():
